@@ -1,0 +1,38 @@
+.box-header .title-left{
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+
+
+/* Style File confirm order */
+
+.box-header .Titlebox{
+    margin: 0;
+    display: block;
+    font-weight: bold;
+}
+.box-header .Titlebox:first-child{
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.box .formcustom{
+    padding-top: 30px;
+}
+.box .note{
+    padding: 10px;
+}
+.note .titlenote h4{
+    font-weight: bold;
+}
+#googleMap{
+    width: 100%;
+    height: 500px;
+}
+#output {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
+  }

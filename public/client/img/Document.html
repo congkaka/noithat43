@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)file:///Users/mac/Documents/javascript/Day12as/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./Document_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<style>
+    img{
+        width:300px;
+    }
+#product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#item{
+    border: 1px solid #9999;
+}
+#cart{
+    border: 1px solid #000;
+    width: 100%;
+}
+th,td{
+    border: 1px solid #000;
+    width:25%;
+}
+
+</style></head>
+
+<body>
+    <div id="container">
+        <header></header>
+        <main>
+            
+           <div id="product">
+               
+            <div class="col-12 col-sm-12" id="item">
+        <h2 id="product-name">iPhone</h2>
+        <img src="./Document_files/Untitled-1.jpg" class="product-img " alt="" sizes="" srcset="">
+        <p id="product-price">400</p>
+        <p id="product-status">Còn hàng</p>
+        <button type="button" class="btn btn-outline-danger" onclick="addToCart(1)">Add To Cart</button>
+
+    </div> <div class="col-12 col-sm-12" id="item">
+        <h2 id="product-name">Xiaomi</h2>
+        <img src="./Document_files/Untitled-1.jpg" class="product-img " alt="" sizes="" srcset="">
+        <p id="product-price">400</p>
+        <p id="product-status">Còn hàng</p>
+        <button type="button" class="btn btn-outline-danger" onclick="addToCart(2)">Add To Cart</button>
+
+    </div> <div class="col-12 col-sm-12" id="item">
+        <h2 id="product-name">Xiaomi</h2>
+        <img src="./Document_files/Untitled-1.jpg" class="product-img " alt="" sizes="" srcset="">
+        <p id="product-price">400</p>
+        <p id="product-status">Hết hàng</p>
+        <button type="button" class="btn btn-outline-danger" onclick="addToCart(3)">Add To Cart</button>
+
+    </div></div>
+            <!-- <div id="item"></div>
+            <div id="item"></div> -->
+            <div class="" id="cart">
+                <button class="btn btn-primary" id="btn-Remove">Remove Cart</button>
+                <p style="”text-size:bold”">aaaa</p>
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Product Name</th>
+                            <th>Product img</th>
+                            <th>Product Price</th>
+                            <th>Product status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-data"></tbody>
+                    <tfoot id="table-total"></tfoot>
+                </table>
+        </div>
+        </main>
+       
+    </div>
+    <script src="./Document_files/index.js"></script>
+
+</body></html>
