@@ -29,4 +29,4 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/category/{slug}', [HomeController::class, 'category'])->name('category');
 Route::get('/search', [HomeController::class, 'search'])->name('search');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
-Route::get('/contact123', [HomeController::class, 'contact'])->name('contact123');
+Route::get('/contact1', [HomeController::class, 'contact'])->name('contact1');
